@@ -1,0 +1,16 @@
+.clockrly-app {
+  display: flex;
+  margin-top: 10px;
+  margin-left: 10px;
+}
+.logo {
+  width: 100px;
+}
+
+.clockrly {
+  color: #088194;
+  font-size: 28px;
+  margin-left: 10px;
+  position: relative;
+  top: 11px;
+}
