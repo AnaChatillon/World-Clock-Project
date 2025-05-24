@@ -3,8 +3,8 @@ body {
 }
 .clockrly-app {
   display: flex;
-  margin-top: 10px;
-  margin-left: 10px;
+  margin-top: -30px;
+  margin-left: -10px;
 }
 .logo {
   width: 100px;
@@ -25,16 +25,21 @@ body {
   box-shadow: 10px 10px 10px rgba(152, 152, 152, 0.2);
   border-radius: 10px;
 }
+.select {
+  margin-top: 20px;
+  display: block;
+}
 .city {
   display: flex;
   margin: 20px 0;
   justify-content: space-between;
   padding: 20px 0;
-  border-bottom: 1px dashed rgba(0, 0, 0, 0.2);
+  border-bottom: 1px dashed #088194;
 }
 h2 {
   margin: 0 0 5px;
   font-size: 28px;
+  color: #06364a;
 }
 .date {
   opacity: 0.7;
@@ -42,7 +47,9 @@ h2 {
 .time {
   font-size: 36px;
   font-weight: bold;
+  color: #06364a;
 }
+
 .time small {
   font-size: 18px;
   vertical-align: middle;
