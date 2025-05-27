@@ -18,9 +18,11 @@ body {
   top: 11px;
 }
 .container {
+  background-image: url("https://i.pinimg.com/736x/fd/ed/6a/fded6a81f0425e04e9d3afd767095639.jpg");
   max-width: 600px;
+
+  background-position-x: -50px;
   margin: 60px auto;
-  background: white;
   padding: 40px 20px;
   box-shadow: 10px 10px 10px rgba(152, 152, 152, 0.2);
   border-radius: 10px;
@@ -39,18 +41,21 @@ body {
 h2 {
   margin: 0 0 5px;
   font-size: 28px;
-  color: #06364a;
+  color: #0c6a7e;
 }
 .date {
+  color: #f95109;
   opacity: 0.7;
+  font-weight: 800;
 }
 .time {
+  color: #0c6a7e;
   font-size: 36px;
   font-weight: bold;
-  color: #06364a;
 }
 
 .time small {
+  color: #0c6a7e;
   font-size: 18px;
   vertical-align: middle;
   line-height: 36px;
@@ -72,4 +77,13 @@ select {
 
 .footer a {
   color: #088194;
+}
+
+.homepageLink {
+  margin-top: 45px;
+}
+.homepageLink a {
+  color: #0b4557;
+  font-size: 17px;
+  font-weight: bolder;
 }

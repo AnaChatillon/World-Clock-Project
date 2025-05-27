@@ -1,4 +1,30 @@
 function updateTime() {
+  //Adelaide
+  let adelaideElement = document.querySelector("#adelaide");
+  if (adelaideElement) {
+    let adelaideDateElement = adelaideElement.querySelector(".date");
+    let adelaideTimeElement = adelaideElement.querySelector(".time");
+    let adelaideTime = moment().tz("Australia/Adelaide");
+
+    adelaideDateElement.innerHTML = adelaideTime.format("MMMM Do YYYY");
+    adelaideTimeElement.innerHTML = adelaideTime.format(
+      "h:mm:ss [<small>]A[</small>]"
+    );
+  }
+
+  //Lisboa
+  let lisbonElement = document.querySelector("#lisbon");
+  if (lisbonElement) {
+    let lisbonDateElement = lisbonElement.querySelector(".date");
+    let lisbonTimeElement = lisbonElement.querySelector(".time");
+    let lisbonTime = moment().tz("Europe/Lisbon");
+
+    lisbonDateElement.innerHTML = lisbonTime.format("MMMM Do YYYY");
+    lisbonTimeElement.innerHTML = lisbonTime.format(
+      "h:mm:ss [<small>]A[</small>]"
+    );
+  }
+
   //Los Angeles
   let losAngelesElement = document.querySelector("#los-angeles");
   if (losAngelesElement) {
